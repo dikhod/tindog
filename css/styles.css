@@ -1,0 +1,171 @@
+
+#title
+{
+    background-color: lightblue;
+    padding: 3% 15%;
+}
+
+.title
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    color: goldenrod;
+}
+
+.nav-clr
+{
+    color:rgb(232, 229, 240);
+}
+.bar
+{
+    margin-bottom: 2rem;
+    font-family: 'Merriweather', serif;
+    color: lightslategrey;
+}
+
+.heading
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 100px;
+
+}
+
+.apple
+{
+    margin: 20px 15px 0 0;
+}
+
+.play
+{
+    margin: 20px 0 0 15px;
+}
+
+.title-img
+{
+    width: 90%;
+    transform: rotate(13deg);
+}
+
+
+/* features */
+
+#features
+{
+    padding: 7% 15%;
+    font-family:'Montserrat', sans-serif; 
+    text-align: center;
+    position: relative;
+    background-color: white;
+
+}
+
+.easy-img
+{
+    width: 100px;
+    height: 100px;
+    margin: 0 0 10px 15px;
+}
+
+.client-img
+{
+    width: 100px;
+    height: 100px;
+    margin: 0 0 10px 25px;
+}
+
+.guranted-img
+{
+    width: 100px;
+    height: 100px;
+    margin: 0 0 10px 55px;
+}
+
+.feature-item
+{
+    font-family:'Merriweather', serif;
+    color: grey;
+}
+
+/* testomonials */
+
+#testimonials
+{
+    padding: 7% 25%;
+    background-color: lightblue;
+    text-align: center;
+    color: white;
+}
+
+.h2-tag
+{
+    font-family: 'montserrat',sans-serif;
+    line-height: 2;
+}
+
+.dog-img
+{
+  
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* press */
+
+#press
+{
+    background-color: lightblue;
+    text-align: center;
+}
+
+.press-logo
+{
+    width: 10%;
+    height: 10%;
+    margin: 10px 50px 50px;
+    border-radius: 50%;
+}
+
+/* pricing */
+
+#pricing
+{
+    padding: 100px;;
+    text-align: center;
+}
+
+.prices-col
+{
+    padding:3% 2% ;
+}
+
+/* media Query */
+
+@media (max-width:990px)
+{
+    .title-img
+    {
+        transform: rotate(10);
+        margin-top:15%;
+    }
+}
+
+
+/* call to action */
+
+#cta
+{   
+    color: white;
+    background-color: lightblue;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#footer
+{
+    text-align: center;
+    padding: 10%;
+    line-height: 3;
+}
